@@ -2,6 +2,7 @@ package resources
 
 import (
 	"context"
+	"log"
 	"sync"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -17,6 +18,7 @@ var (
 func GetRedisClient() (*redis.Client, error) {
 	var err error
 	once.Do(func() {
+		log.Println("Initializing redis connection...")
 		redisInstance = redis.NewClient(&redis.Options{
 			Addr: "localhost:6379",
 		})
