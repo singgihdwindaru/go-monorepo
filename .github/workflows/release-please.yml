@@ -16,4 +16,4 @@ jobs:
       - uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-          manifest-file: .release-please-manifest.json
+          config-file: release-please-config.json
