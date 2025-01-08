@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.1.0...v0.2.0) (2025-01-08)
+
+
+### Features
+
+* **loyalty:** init new package ([9c1eca2](https://github.com/singgihdwindaru/go-monorepo/commit/9c1eca222574afb594c63b4a9f48c5e88f54540f))
+
+
+### Bug Fixes
+
+* config release please ([e5d6ea7](https://github.com/singgihdwindaru/go-monorepo/commit/e5d6ea7a78effd5d4ecb8c1dde8c0038d05f1f8b))
+
 ## [0.1.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.0.2...v0.1.0) (2025-01-08)
 
 
