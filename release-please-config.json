@@ -4,16 +4,23 @@
     "prerelease": false,
     "bump-minor-pre-major": true,
     "release-type": "go",
+    "tag-separator": "/",
     "separate-pull-requests": false,    
     "include-component-in-tag": true,  
     "include-v-in-tag": true,
     "packages": {
         ".": {
-            "include-component-in-tag": false
+            "component": "main",
+            "include-component-in-tag": false,
+            "separate-pull-requests": true
         },
         "auth": {
             "package-name": "auth",
-            "changelog-path": "auth/CHANGELOG.md"
+            "changelog-path": "CHANGELOG.md"
+        },
+        "loyalty": {
+            "package-name": "loyalty",
+            "changelog-path": "CHANGELOG.md"
         }
     }
 }
