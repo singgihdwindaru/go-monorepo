@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.1](https://github.com/singgihdwindaru/go-monorepo/compare/v0.2.0...v0.2.1) (2025-01-09)
+
+
+### Bug Fixes
+
+* **auth:** add more log ([2308a65](https://github.com/singgihdwindaru/go-monorepo/commit/2308a65d2c993d74cc9b755c151841945c82ad4a))
+* name config-file for individual release ([9a8ed93](https://github.com/singgihdwindaru/go-monorepo/commit/9a8ed932465cae662bb4183e404e5bb77ab2646e))
+* release-please workflow ([22d4928](https://github.com/singgihdwindaru/go-monorepo/commit/22d4928e40fe83fbfd2e73dd409cf9eda3fc3dfa))
+* release-please-config ([9664532](https://github.com/singgihdwindaru/go-monorepo/commit/9664532684cea98dff9998650d2c2a06b599f88c))
+* separate config and manifes for root and submodules package ([9a201e4](https://github.com/singgihdwindaru/go-monorepo/commit/9a201e4122324fbaf665529571fe1703c45a3a42))
+
 ## [0.2.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.1.0...v0.2.0) (2025-01-08)
 
 
