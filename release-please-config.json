@@ -1,26 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-    "draft": false,
-    "prerelease": false,
-    "bump-minor-pre-major": true,
-    "release-type": "go",
-    "tag-separator": "/",
-    "separate-pull-requests": false,    
-    "include-component-in-tag": true,  
-    "include-v-in-tag": true,
+    "separate-pull-requests": true,    
+    "include-component-in-tag": false,
     "packages": {
         ".": {
-            "component": "main",
-            "include-component-in-tag": false,
-            "separate-pull-requests": true
-        },
-        "auth": {
-            "package-name": "auth",
-            "changelog-path": "CHANGELOG.md"
-        },
-        "loyalty": {
-            "package-name": "loyalty",
-            "changelog-path": "CHANGELOG.md"
+            "component": "main"
         }
     }
 }
