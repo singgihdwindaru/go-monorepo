@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.1](https://github.com/singgihdwindaru/go-monorepo/compare/auth/v1.1.0...auth/v1.1.1) (2025-01-10)
+
+
+### Bug Fixes
+
+* **auth:** add log lagi ([74f0fd6](https://github.com/singgihdwindaru/go-monorepo/commit/74f0fd67e52b0b8e1f7a584d5f473a5bdb705508))
+* **auth:** add more log auth ([99a5384](https://github.com/singgihdwindaru/go-monorepo/commit/99a53848d2858819aa265b0f752b0c837ea7e083))
+* **auth:** delete log ([cf7182d](https://github.com/singgihdwindaru/go-monorepo/commit/cf7182db5e52f99743338e82c6f7dbb4e4b99b33))
+* **loyalty:** add log lagi ([74f0fd6](https://github.com/singgihdwindaru/go-monorepo/commit/74f0fd67e52b0b8e1f7a584d5f473a5bdb705508))
+* **loyalty:** add more log loyalty ([99a5384](https://github.com/singgihdwindaru/go-monorepo/commit/99a53848d2858819aa265b0f752b0c837ea7e083))
+
 ## [1.1.0](https://github.com/singgihdwindaru/go-monorepo/compare/auth/v1.0.0...auth/v1.1.0) (2025-01-09)
 
 
