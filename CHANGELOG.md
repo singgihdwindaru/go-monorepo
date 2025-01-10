@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.3.0...v0.4.0) (2025-01-10)
+
+
+### Features
+
+* **loyalty:** add more log ([aef10e0](https://github.com/singgihdwindaru/go-monorepo/commit/aef10e0b88e2ce266427fdd34c2ad8718b08e56c))
+* **loyalty:** tambah log lagi ([d023e42](https://github.com/singgihdwindaru/go-monorepo/commit/d023e42cdf2f3bbad330635adff5301702dc64ee))
+
+
+### Bug Fixes
+
+* **auth:** add log lagi ([74f0fd6](https://github.com/singgihdwindaru/go-monorepo/commit/74f0fd67e52b0b8e1f7a584d5f473a5bdb705508))
+* **auth:** add more log auth ([99a5384](https://github.com/singgihdwindaru/go-monorepo/commit/99a53848d2858819aa265b0f752b0c837ea7e083))
+* **auth:** delete log ([cf7182d](https://github.com/singgihdwindaru/go-monorepo/commit/cf7182db5e52f99743338e82c6f7dbb4e4b99b33))
+* config main release-please ([3beccd8](https://github.com/singgihdwindaru/go-monorepo/commit/3beccd85c0ddeb3b51cd3a272d9c9588f98735b2))
+* **loyalty:** add log lagi ([74f0fd6](https://github.com/singgihdwindaru/go-monorepo/commit/74f0fd67e52b0b8e1f7a584d5f473a5bdb705508))
+* **loyalty:** add more log loyalty ([99a5384](https://github.com/singgihdwindaru/go-monorepo/commit/99a53848d2858819aa265b0f752b0c837ea7e083))
+* **loyalty:** delete log ([3f85ce2](https://github.com/singgihdwindaru/go-monorepo/commit/3f85ce2a702213dee526cc14280797c68b4e8ad3))
+* **loyalty:** delete log ([1e730ca](https://github.com/singgihdwindaru/go-monorepo/commit/1e730ca757110cfc63c980ea36a7335d2df781fd))
+* **loyalty:** delete log ([fd9eba6](https://github.com/singgihdwindaru/go-monorepo/commit/fd9eba659200128b252687b4717feeeb0e7051bc))
+* **loyalty:** manifest release please ([29dbb38](https://github.com/singgihdwindaru/go-monorepo/commit/29dbb38b1e02e4a0720c480fe96564dd10b0142e))
+* workflow gh token ([fdcefdb](https://github.com/singgihdwindaru/go-monorepo/commit/fdcefdb7554d7d1a825a7f189c85d29517fb4e2e))
+
 ## [0.3.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.2.1...v0.3.0) (2025-01-09)
 
 
