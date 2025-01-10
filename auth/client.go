@@ -18,6 +18,7 @@ func main() {
 
 	fmt.Println("auth is using the shared resource:", db)
 	fmt.Println("auth is using the shared resource:", db)
+	fmt.Println("auth is using the shared resource:", db)
 	sigs := make(chan os.Signal, 1)
 	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
 	<-sigs
