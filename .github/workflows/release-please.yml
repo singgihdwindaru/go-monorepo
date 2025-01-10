@@ -16,12 +16,12 @@ jobs:
       - name: root release-please
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
       - name: individual module release-please
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           config-file: release-please-config-individual.json
           manifest-file: .release-please-manifest-individual.json
