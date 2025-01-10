@@ -4,8 +4,8 @@
     "include-component-in-tag": false,
     "release-type": "go",
     "packages": {
-        ".": {
-            "component": "main"
+        "internal": {
+            "package-name": "internal"
         }
     }
 }
