@@ -1,3 +1,13 @@
+## 1.2.0 (2025-01-17)
+
+### 🩹 Fixes
+
+- changes doc and version ([cb65ad8](https://github.com/singgihdwindaru/go-monorepo/commit/cb65ad8))
+
+### ❤️ Thank You
+
+- singgihdwindaru
+
 # Changelog
 
 ## [1.1.1](https://github.com/singgihdwindaru/go-monorepo/compare/auth/v1.1.0...auth/v1.1.1) (2025-01-10)

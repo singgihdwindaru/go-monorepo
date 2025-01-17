@@ -1,3 +1,13 @@
+## 1.2.0 (2025-01-17)
+
+### 🩹 Fixes
+
+- changes doc and version ([cb65ad8](https://github.com/singgihdwindaru/go-monorepo/commit/cb65ad8))
+
+### ❤️ Thank You
+
+- singgihdwindaru
+
 ### Features
 
 * **loyalty:** add more log ([aef10e0](https://github.com/singgihdwindaru/go-monorepo/commit/aef10e0b88e2ce266427fdd34c2ad8718b08e56c))
