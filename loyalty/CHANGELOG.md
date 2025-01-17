@@ -1,3 +1,19 @@
+## 1.3.0 (2025-01-17)
+
+### 🚀 Features
+
+- add configuration nx ([10f15ae](https://github.com/singgihdwindaru/go-monorepo/commit/10f15ae))
+
+### 🩹 Fixes
+
+- **loyalty:** version tag ([3bb81bc](https://github.com/singgihdwindaru/go-monorepo/commit/3bb81bc))
+- **loyalty:** revert changeslog ([5dfc6aa](https://github.com/singgihdwindaru/go-monorepo/commit/5dfc6aa))
+- changes doc and version ([cb65ad8](https://github.com/singgihdwindaru/go-monorepo/commit/cb65ad8))
+
+### ❤️ Thank You
+
+- singgihdwindaru
+
 # Changelog
 
 ### Features

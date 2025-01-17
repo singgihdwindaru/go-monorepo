@@ -1,3 +1,19 @@
+## 1.2.0 (2025-01-17)
+
+### 🚀 Features
+
+- **auth:** add nx configuration to all modules ([9c19eaa](https://github.com/singgihdwindaru/go-monorepo/commit/9c19eaa))
+
+### 🩹 Fixes
+
+- **auth:** remove log ([0d1f6de](https://github.com/singgihdwindaru/go-monorepo/commit/0d1f6de))
+- **auth:** revert changeslog ([4467ea5](https://github.com/singgihdwindaru/go-monorepo/commit/4467ea5))
+- changes doc and version ([cb65ad8](https://github.com/singgihdwindaru/go-monorepo/commit/cb65ad8))
+
+### ❤️ Thank You
+
+- singgihdwindaru
+
 # Changelog
 
 ## [1.1.1](https://github.com/singgihdwindaru/go-monorepo/compare/auth/v1.1.0...auth/v1.1.1) (2025-01-10)
