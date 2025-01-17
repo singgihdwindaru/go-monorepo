@@ -1,0 +1,63 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*.go",
+      "{projectRoot}/**/*.mod",
+      "{projectRoot}/**/*.sum",
+      "sharedGlobals",
+      "excludeGlobals"
+    ],
+    "production": [
+      "default"
+    ],
+    "sharedGlobals": [
+      "{workspaceRoot}/go.work",
+      "{workspaceRoot}/.github/workflows/ci.yml"
+    ],
+    "excludeGlobals": [
+      "!{projectRoot}/**/coverage/**",
+      "!{projectRoot}/**/docs/**",
+      "!{projectRoot}/**/tools/**",
+      "!{projectRoot}/**/public/**",
+      "!{projectRoot}/**/kube/**",
+      "!{projectRoot}/**/deploy/**",
+      "!{projectRoot}/**/*.md",
+      "!{projectRoot}/**/makefile"
+    ]
+  },
+  "targetDefaults": {
+    "test": {
+      "cache": true,
+      "inputs": [
+        "default"
+      ]
+    }
+  },
+  "plugins": [
+    "@nx-go/nx-go"
+  ],
+  "defaultBase": "main",
+  "release": {
+    "versionPlans": true,
+    "projects": [
+      "auth",
+      "loyalty"
+    ],
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true,
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
+    },
+    "releaseTagPattern": "{projectName}/v{version}",
+    "git": {
+      "commitMessage": "chore({projectName}): release {projectName} {version}"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "nxCloudId": "678aaa55e56a4e6e053d9574"
+}
