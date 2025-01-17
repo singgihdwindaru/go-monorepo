@@ -1,13 +1,3 @@
-## 1.2.0 (2025-01-17)
-
-### 🩹 Fixes
-
-- changes doc and version ([cb65ad8](https://github.com/singgihdwindaru/go-monorepo/commit/cb65ad8))
-
-### ❤️ Thank You
-
-- singgihdwindaru
-
 # Changelog
 
 ## [0.3.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.2.1...v0.3.0) (2025-01-09)

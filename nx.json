@@ -39,17 +39,14 @@
   ],
   "defaultBase": "main",
   "release": {
-    "versionPlans": true,
-    "projects": [
-      "auth",
-      "loyalty"
-    ],
     "projectsRelationship": "independent",
+    "versionPlans": true,
+    // "projects": [
+    //   "auth",
+    //   "loyalty"
+    // ],
     "changelog": {
-      "projectChangelogs": true,
-      "workspaceChangelog": {
-        "createRelease": "github"
-      }
+      "projectChangelogs": true
     },
     "releaseTagPattern": "{projectName}/v{version}",
     "git": {
