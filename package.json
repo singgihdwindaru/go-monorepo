@@ -1,0 +1,16 @@
+{
+  "name": "@root/go-monorepo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "@nx-go/nx-go": "3.3.1"
+  },
+  "devDependencies": {
+    "@nx/js": "^20.3.1",
+    "@nx/workspace": "20.3.1",
+    "nx": "20.3.1"
+  },
+  "nx": {}
+}
