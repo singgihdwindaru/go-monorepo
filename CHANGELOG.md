@@ -1,20 +1,3 @@
-## 1.2.0 (2025-01-17)
-
-### 🚀 Features
-
-- add configuration nx ([10f15ae](https://github.com/singgihdwindaru/go-monorepo/commit/10f15ae))
-- **auth:** add nx configuration to all modules ([9c19eaa](https://github.com/singgihdwindaru/go-monorepo/commit/9c19eaa))
-
-### 🩹 Fixes
-
-- remove release please config and CI ([d34450d](https://github.com/singgihdwindaru/go-monorepo/commit/d34450d))
-- exclude folders from nx configuration ([d8c5c71](https://github.com/singgihdwindaru/go-monorepo/commit/d8c5c71))
-- go workspace ([518fd39](https://github.com/singgihdwindaru/go-monorepo/commit/518fd39))
-
-### ❤️ Thank You
-
-- singgihdwindaru
-
 # Changelog
 
 ## [0.3.0](https://github.com/singgihdwindaru/go-monorepo/compare/v0.2.1...v0.3.0) (2025-01-09)

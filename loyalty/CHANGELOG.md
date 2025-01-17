@@ -1,8 +1,3 @@
-# Changelog
-
-## [1.2.0](https://github.com/singgihdwindaru/go-monorepo/compare/loyalty/v1.1.0...loyalty/v1.2.0) (2025-01-10)
-
-
 ### Features
 
 * **loyalty:** add more log ([aef10e0](https://github.com/singgihdwindaru/go-monorepo/commit/aef10e0b88e2ce266427fdd34c2ad8718b08e56c))
