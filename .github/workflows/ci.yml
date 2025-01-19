@@ -1,0 +1,66 @@
+name: CI
+on:
+  push:
+    branches:
+      # Change this if your primary branch is not main
+      - main
+  pull_request:
+
+# Needed for nx-set-shas when run on the main branch
+permissions:
+  actions: read
+  contents: write
+
+env:
+  NX_BRANCH: ${{ github.event.number }}
+  NX_RUN_GROUP: ${{ github.run_id }}
+  # Add custom environment variables
+  CACHE_FOLDER: .nx/cache
+  NODE_VERSION: 18
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      # Cache node_modules and Nx cache
+      - name: Cache Dependencies and Build Cache
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: |
+            node_modules
+            ${{ env.CACHE_FOLDER }}
+          key: ${{ runner.os }}-nx-${{ hashFiles('**/package-lock.json') }}-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-nx-${{ hashFiles('**/package-lock.json') }}-
+            ${{ runner.os }}-nx-
+
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      # Lint affected projects
+      - name: Lint Affected Projects
+        run: npx nx affected --target=lint --parallel=3
+
+      # Test affected projects
+      - name: Test Affected Projects
+        run: npx nx affected --target=test --parallel=3 --configuration=ci
+
+      # Build affected projects
+      - name: Build Affected Projects
+        run: npx nx affected --target=build --parallel=3

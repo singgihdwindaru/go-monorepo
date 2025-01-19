@@ -41,16 +41,19 @@
   "release": {
     "projectsRelationship": "independent",
     "versionPlans": true,
-    // "projects": [
-    //   "auth",
-    //   "loyalty"
-    // ],
+    "projects": [
+      "auth",
+      "loyalty",
+      "internal"
+    ],
     "changelog": {
-      "projectChangelogs": true
+      "projectChangelogs": {
+        "createRelease": "github"
+      }
     },
     "releaseTagPattern": "{projectName}/v{version}",
     "git": {
-      "commitMessage": "chore({projectName}): release {projectName} {version}"
+      "commitMessage": "chore(main): release {projectName} {version}"
     },
     "version": {
       "conventionalCommits": true

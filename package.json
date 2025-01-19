@@ -1,5 +1,6 @@
 {
-  "name": "go-monorepo",
+  "name": "@nx-go/source",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
